@@ -19,5 +19,7 @@ request：${requestScope.val}<br/>
 session:${sessionScope.val}${sessionScope.ha}<br/>
 pageContext:${pageScope.val}<br/>
 application:${applicationScope.val}<br/>
+<hr>
+<h1>${requestScope.msg}</h1>
 </body>
 </html>
